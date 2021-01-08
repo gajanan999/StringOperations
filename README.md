@@ -15,4 +15,19 @@
         ]
     }
 
+### Delete Strings API
+
+    Method: POST
+    URL: http://localhost:8080/deleteStrings?length=10
+    Body:
+    {
+    "list":[
+            "adf",
+            "sadas",
+            "sadfasfadf",
+            "dsf",
+            "sfsdfjsdjfgklsdjgkljsl",
+            "d"
+        ]
+    }
 
